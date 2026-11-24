@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Дмитрий Еремин (Бургер) — Design Engineer &amp; Product Designer · Портфолио</title>
+  <meta name="description" content="Портфолио Еремина Дмитрия (Бургер) — Product Designer &amp; Design Engineer из Москвы. Проектирование интерфейсов в Figma, быстрые веб-сервисы на React / Vue / Vanilla JS, 3D WebGL и Telegram AI-боты." />
+  <meta name="keywords" content="Еремин Дмитрий, Дмитрий Еремин портфолио, Дмитрий Бургер, Design Engineer, Product Designer, UI/UX Figma, разработка сайтов Москва, React 19, Vue 3, Three.js" />
+  <meta name="author" content="Дмитрий Еремин (Бургер)" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://228burger228.github.io/DmrytryEremin-PORTFOLIO-burger/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Дмитрий Еремин — Design Engineer &amp; Product Designer" />
+  <meta property="og:description" content="Сайты, веб-продукты, дизайн-системы и 3D-спецпроекты на чистом коде." />
+  <meta property="og:image" content="https://228burger228.github.io/DmrytryEremin-PORTFOLIO-burger/assets/img/Porfolscr.webp" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Дмитрий Еремин",
+        "alternateName": ["Еремин Дмитрий", "Дмитрий Бургер", "Burger"],
+        "jobTitle": "Product Designer & Design Engineer",
+        "url": "https://228burger228.github.io/DmrytryEremin-PORTFOLIO-burger/",
+        "address": { "@type": "PostalAddress", "addressLocality": "Москва", "addressCountry": "RU" },
+        "sameAs": ["https://github.com/228burger228", "https://t.me/aimovl"]
+      },
+      {
+        "@type": "WebSite",
+        "name": "Еремин Дмитрий — Портфолио",
+        "url": "https://228burger228.github.io/DmrytryEremin-PORTFOLIO-burger/",
+        "inLanguage": "ru"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к контенту</a>
+
+  <!-- ═══ HEADER (Two-Tier Editorial Utility Bar) ═══ -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-row-main">
+        <a href="#hero" class="brand" aria-label="Дмитрий Еремин — В начало">
+          <span class="brand-mark" aria-hidden="true">DE®</span>
+          <span>Дмитрий Еремин</span>
+        </a>
+
+        <nav aria-label="Основная навигация">
+          <ul class="nav-list" id="nav-list" data-open="false">
+            <li><a href="#cases" class="nav-link"><span class="nav-link-idx">01</span>Работы</a></li>
+            <li><a href="#approach" class="nav-link"><span class="nav-link-idx">02</span>Подход</a></li>
+            <li><a href="#formats" class="nav-link"><span class="nav-link-idx">03</span>Услуги</a></li>
+            <li><a href="#contact" class="nav-link"><span class="nav-link-idx">04</span>Контакт</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="pill-btn" data-copy="@aimovl" data-toast="Telegram @aimovl скопирован" aria-label="Скопировать Telegram @aimovl">
+            <span>@aimovl</span>
+          </button>
+          <a href="https://t.me/aimovl" target="_blank" rel="noopener noreferrer" class="pill-btn pill-btn--solid pill-btn--tg">
+            <span>Telegram ↗</span>
+          </a>
+          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Переключить тему"></button>
+          <button type="button" id="menu-toggle" class="menu-toggle" aria-label="Меню" aria-expanded="false" aria-controls="nav-list">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="8" x2="21" y2="8"/><line x1="3" y1="16" x2="21" y2="16"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="header-row-meta" aria-hidden="true">
+        <span>Product Designer &amp; Design Engineer</span>
+        <span class="header-meta-hide-sm">Москва · Remote · 19+ проектов в проде</span>
+        <span class="meta-status"><span class="live-dot"></span>Свободен к проектам</span>
+      </div>
+    </div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ═══ 1. HERO COVER ═══ -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-canvas">
+          <div>
+            <p class="hero-kicker">Еремин Дмитрий (Burger) · Портфолио 2026</p>
+            <h1 id="hero-title" class="hero-display">
+              Design
+              <span class="hero-display-stroke">Engineer</span>
+            </h1>
+            <p class="hero-lead">
+              Проектирую интерфейсы в Figma и доводжу до чистого кода на React 19, Vue 3 и Vanilla JS — без шаблонов, тормозов и разрыва между макетом и продакшеном.
+            </p>
+            <div class="hero-cta-row">
+              <a href="#cases" class="btn btn-accent">Смотреть кейсы ↓</a>
+              <a href="https://228burger228.github.io/Game-portfolio/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">3D-версия (Three.js) ↗</a>
+            </div>
+          </div>
+
+          <div class="hero-portrait-frame">
+            <div class="hero-portrait-box">
+              <img src="assets/img/hero-portrait.webp" width="720" height="900" alt="Дмитрий Еремин — Product Designer и Design Engineer" class="hero-portrait-img" fetchpriority="high" decoding="async" />
+            </div>
+            <a href="#cases" class="stamp-badge hero-portrait-stamp" aria-label="К выбранным работам">
+              <span class="stamp-ring" aria-hidden="true"></span>
+              <span class="stamp-badge-text">Work<br>2026 ↓</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3-Column Capabilities Matrix (sokolovski.pro style) -->
+        <div class="hero-matrix">
+          <div>
+            <span class="matrix-label">Что делаю</span>
+            <p class="matrix-value">Веб-сервисы и MVP, промо-сайты, 3D WebGL-спецпроекты, Telegram AI-боты</p>
+          </div>
+          <div>
+            <span class="matrix-label">Инструменты</span>
+            <p class="matrix-value">Figma · React 19 · Vue 3 · Vanilla ES6+ · Three.js · Cloudflare Workers</p>
+          </div>
+          <div>
+            <span class="matrix-label">Стандарт</span>
+            <p class="matrix-value">Загрузка &lt; 0.8с, Core Web Vitals 95+, точный перенос из Figma 1:1</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 2. FRAGMENTS MOSAIC (sokolovski.pro instant visual wall) ═══ -->
+    <section class="fragments-sec" aria-label="Фрагменты интерфейсов и графики">
+      <div class="container">
+        <div class="fragments-head">
+          <span>Fragments / Быстрый визуальный обзор</span>
+          <span class="fragments-count">12 экранов · клик для увеличения</span>
+        </div>
+        <div class="fragments-grid" id="fragments-grid"></div>
+      </div>
+    </section>
+
+    <!-- ═══ 3. SELECTED CASES INDEX (Lucas Berghoef Case:N split architecture) ═══ -->
+    <section id="cases" class="sec" aria-labelledby="cases-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">01 / Избранные проекты</span>
+            <h2 id="cases-title" class="sec-title">Кейсы в продакшене</h2>
+          </div>
+          <p class="sec-note">Реальные коммерческие, продуктовые и 3D-разработки с измеримым результатом.</p>
+        </div>
+
+        <div class="cases-controls">
+          <div class="filter-bar" role="tablist" aria-label="Фильтр кейсов">
+            <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Все</button>
+            <button type="button" class="filter-btn" data-filter="web" role="tab" aria-selected="false">Веб-продукты</button>
+            <button type="button" class="filter-btn" data-filter="ui" role="tab" aria-selected="false">UI/UX &amp; Figma</button>
+            <button type="button" class="filter-btn" data-filter="ai" role="tab" aria-selected="false">3D &amp; AI</button>
+            <button type="button" class="filter-btn" data-filter="print" role="tab" aria-selected="false">Графика &amp; Print</button>
+          </div>
+
+          <search class="search-wrap">
+            <input type="search" id="case-search" class="search-input" placeholder="Поиск по стеку или задаче..." aria-label="Поиск по кейсам" />
+            <span class="search-kbd" aria-hidden="true">Ctrl+K</span>
+          </search>
+        </div>
+
+        <div class="cases-list" id="cases-list">
+
+          <!-- CASE:01 -->
+          <article class="case-row" data-cat="web ui">
+            <div class="case-num-col">
+              <span class="case-index">CASE:01</span>
+              <span class="case-year">2025</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">B2B Portal</span>
+                <span class="case-tag">Figma System</span>
+                <span class="case-tag">Bootstrap 5</span>
+              </div>
+              <h3 class="case-title">HgStroy — Корпоративный B2B-портал</h3>
+              <p class="case-summary">Проектирование и верстка корпоративного сайта строительной компании с адаптивными формами заявок.</p>
+              <p class="case-result">Итог: загрузка &lt; 1с, рост мобильных обращений и официальная благодарность гендиректора.</p>
+              <span class="case-meta-line">Роль: Lead Frontend &amp; Designer</span>
+              <div class="case-links">
+                <a href="https://smr.hgstroy.ru/index.html" target="_blank" rel="noopener noreferrer" class="case-link">Открыть сайт ↗</a>
+                <button type="button" class="case-link" data-preview="assets/img/hgstroyblag.webp" data-preview-fallback="assets/img/hgstroyblag.png" data-preview-title="Благодарственное письмо — ООО «Хаус Гард»">Письмо гендиректора</button>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/hgstroy.webp" data-preview-title="HgStroy — Корпоративный портал" aria-label="Увеличить скриншот HgStroy">
+                <img src="assets/img/hgstroy.webp" width="1400" height="725" alt="HgStroy — корпоративный сайт" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:02 -->
+          <article class="case-row" data-cat="web ui ai">
+            <div class="case-num-col">
+              <span class="case-index">CASE:02</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">Three.js</span>
+                <span class="case-tag">GLSL Shaders</span>
+                <span class="case-tag">60 FPS</span>
+              </div>
+              <h3 class="case-title">Game Portfolio 2.0 — Интерактивный 3D-мир</h3>
+              <p class="case-summary">3D-портфолио на чистом Three.js без тяжёлых движков: полёт вертолёта на WASD, автопилот и шейдеры воды.</p>
+              <p class="case-result">Итог: стабильные 60 FPS прямо в браузере и 10 интерактивных 3D-станций кейсов.</p>
+              <span class="case-meta-line">Роль: 3D WebGL &amp; Frontend Architect</span>
+              <div class="case-links">
+                <a href="https://228burger228.github.io/Game-portfolio/" target="_blank" rel="noopener noreferrer" class="case-link">Играть в браузере ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <a href="https://228burger228.github.io/Game-portfolio/" target="_blank" rel="noopener noreferrer" class="case-spec-card">
+                <div class="case-spec-head">
+                  <span>WEBGL 2.0 · THREE.JS</span>
+                  <span>● 60.0 FPS</span>
+                </div>
+                <div class="case-spec-main">3D Боевой Вертолёт<br>× 10 станций</div>
+                <div class="case-spec-foot">Запустить интерактивную сцену ↗</div>
+              </a>
+            </div>
+          </article>
+
+          <!-- CASE:03 -->
+          <article class="case-row" data-cat="web ui">
+            <div class="case-num-col">
+              <span class="case-index">CASE:03</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">React 19</span>
+                <span class="case-tag">Vite 6</span>
+                <span class="case-tag">Figma 1:1</span>
+              </div>
+              <h3 class="case-title">Алекспром — B2B-каталог оборудования</h3>
+              <p class="case-summary">Витрина промышленного холода по макету из Figma: карточки ТТХ, онлайн-подбор смет и захват лидов.</p>
+              <p class="case-result">Итог: подбор оборудования и отправка заявки в отдел продаж за 1 минуту.</p>
+              <span class="case-meta-line">Роль: Product Designer &amp; Frontend</span>
+              <div class="case-links">
+                <a href="https://228burger228.github.io/Frost/docs/" target="_blank" rel="noopener noreferrer" class="case-link">Открыть сайт ↗</a>
+                <a href="https://github.com/228burger228/Frost" target="_blank" rel="noopener noreferrer" class="case-link">GitHub ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/frosTscrin.webp" data-preview-title="Алекспром — B2B каталог" aria-label="Увеличить скриншот Алекспром">
+                <img src="assets/img/frosTscrin.webp" width="1024" height="525" alt="Алекспром — каталог оборудования" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:04 -->
+          <article class="case-row" data-cat="web ui">
+            <div class="case-num-col">
+              <span class="case-index">CASE:04</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">React 19</span>
+                <span class="case-tag">Tailwind v4</span>
+                <span class="case-tag">Figma 1:1</span>
+              </div>
+              <h3 class="case-title">Да — Архитектура &amp; Дом</h3>
+              <p class="case-summary">Премиальный сайт строительства каменных коттеджей: перенос дизайн-системы из Figma в React 1:1.</p>
+              <p class="case-result">Итог: моментальный отклик на смартфонах и 100% точность авторской типографике.</p>
+              <span class="case-meta-line">Роль: Design Engineer &amp; Frontend</span>
+              <div class="case-links">
+                <a href="https://228burger228.github.io/cottedj/" target="_blank" rel="noopener noreferrer" class="case-link">Открыть сайт ↗</a>
+                <a href="https://github.com/228burger228/cottedj" target="_blank" rel="noopener noreferrer" class="case-link">GitHub ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/cottedj.webp" data-preview-title="Да — Архитектура &amp; Дом" aria-label="Увеличить скриншот Да — Архитектура и Дом">
+                <img src="assets/img/cottedj.webp" width="342" height="590" alt="Да — Архитектура и Дом" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:05 -->
+          <article class="case-row" data-cat="web ui">
+            <div class="case-num-col">
+              <span class="case-index">CASE:05</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">React 19</span>
+                <span class="case-tag">EdTech</span>
+                <span class="case-tag">Калькулятор</span>
+              </div>
+              <h3 class="case-title">EuroPath — Навигатор вузов Европы</h3>
+              <p class="case-summary">Каталог программ 13 стран с бесплатным обучением (0 €), грантами и расчётом бюджета жизни.</p>
+              <p class="case-result">Итог: подбор университета за 3 минуты без платных агентств.</p>
+              <span class="case-meta-line">Роль: Frontend Architect &amp; UI</span>
+              <div class="case-links">
+                <a href="https://228burger228.github.io/school-333/docs/index.html" target="_blank" rel="noopener noreferrer" class="case-link">Открыть сайт ↗</a>
+                <a href="https://github.com/228burger228/school-333" target="_blank" rel="noopener noreferrer" class="case-link">GitHub ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/europath.webp" data-preview-title="EuroPath — Навигатор вузов Европы" aria-label="Увеличить скриншот EuroPath">
+                <img src="assets/img/europath.webp" width="1376" height="768" alt="EuroPath — навигатор высшего образования" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:06 -->
+          <article class="case-row" data-cat="web">
+            <div class="case-num-col">
+              <span class="case-index">CASE:06</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">React 18</span>
+                <span class="case-tag">MedTech</span>
+                <span class="case-tag">PDF Report</span>
+              </div>
+              <h3 class="case-title">Ainala Rehab — Платформа реабилитации</h3>
+              <p class="case-summary">Веб-сервис ЛФК после травм: фазовый план, детектор болевых стоп-триггеров и отчёт врачу в PDF.</p>
+              <p class="case-result">Итог: безопасное домашнее восстановление и наглядный трекинг для клиники.</p>
+              <span class="case-meta-line">Роль: Product Lead &amp; Frontend</span>
+              <div class="case-links">
+                <a href="https://228burger228.github.io/med/" target="_blank" rel="noopener noreferrer" class="case-link">Открыть сайт ↗</a>
+                <a href="https://github.com/228burger228/med" target="_blank" rel="noopener noreferrer" class="case-link">GitHub ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/ainala.webp" data-preview-title="Ainala Rehab — Платформа реабилитации" aria-label="Увеличить скриншот Ainala Rehab">
+                <img src="assets/img/ainala.webp" width="1376" height="768" alt="Ainala Rehab" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:07 -->
+          <article class="case-row" data-cat="ai">
+            <div class="case-num-col">
+              <span class="case-index">CASE:07</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">Cloudflare Workers</span>
+                <span class="case-tag">Gemini API</span>
+                <span class="case-tag">Telegram</span>
+              </div>
+              <h3 class="case-title">Dmitry OS &amp; JobHunter AI</h3>
+              <p class="case-summary">Серверлесс AI-агенты в Telegram: голосовой парсинг задач в Google Календарь и 24/7 мониторинг бирж (HH/FL/Хабр).</p>
+              <p class="case-result">Итог: отклик &lt; 1с, экономия до 3 часов в день и 0 ₽ затрат на аренду сервера.</p>
+              <span class="case-meta-line">Роль: AI &amp; Serverless Architect</span>
+              <div class="case-links">
+                <a href="https://t.me/aimovl" target="_blank" rel="noopener noreferrer" class="case-link">Запросить демо в TG ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <div class="case-spec-card">
+                <div class="case-spec-head">
+                  <span>EDGE WORKER · FRA</span>
+                  <span>● 32ms</span>
+                </div>
+                <div class="case-spec-main">Gemini AI × Telegram<br>Serverless Pipeline</div>
+                <div class="case-spec-foot">0 ₽ / мес · 24/7 Scraping &amp; Voice Sync</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE:08 -->
+          <article class="case-row" data-cat="web ui">
+            <div class="case-num-col">
+              <span class="case-index">CASE:08</span>
+              <span class="case-year">2025–2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">Vue 3</span>
+                <span class="case-tag">Vanilla JS</span>
+                <span class="case-tag">EdTech / Wiki</span>
+              </div>
+              <h3 class="case-title">Study Up · SkillForge · Warpath Wiki</h3>
+              <p class="case-summary">Серия образовательных и комьюнити-SPA: запуск онлайн-школы за 3 недели, дашборд курсов на Vue 3 и база знаний по 500+ юнитам.</p>
+              <p class="case-result">Итог: мгновенный поиск по базе без задержек и первые платящие ученики в срок.</p>
+              <span class="case-meta-line">Роль: Team Lead &amp; Frontend</span>
+              <div class="case-links">
+                <a href="https://228burger228.github.io/StudyUp/index.html" target="_blank" rel="noopener noreferrer" class="case-link">Study Up ↗</a>
+                <a href="https://228burger228.github.io/SkillForge/" target="_blank" rel="noopener noreferrer" class="case-link">SkillForge ↗</a>
+                <a href="https://228burger228.github.io/WarpathYTwiki/index.html" target="_blank" rel="noopener noreferrer" class="case-link">Warpath Wiki ↗</a>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/warpathwikiscrin.webp" data-preview-title="Warpath Wiki — SPA база знаний на Vue 3" aria-label="Увеличить скриншот Warpath Wiki">
+                <img src="assets/img/warpathwikiscrin.webp" width="1400" height="719" alt="Warpath Wiki на Vue 3" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:09 -->
+          <article class="case-row" data-cat="ui">
+            <div class="case-num-col">
+              <span class="case-index">CASE:09</span>
+              <span class="case-year">2025</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">UI/UX</span>
+                <span class="case-tag">Figma</span>
+                <span class="case-tag">Яндекс Практикум</span>
+              </div>
+              <h3 class="case-title">Точка ритма — Стриминг-сервис</h3>
+              <p class="case-summary">Концепт тёмной дизайн-системы музыкального медиа-портала: эргономичный плеер и подбор по темпу.</p>
+              <p class="case-result">Итог: высокая оценка ревьюеров Яндекс Практикума за сетку и сценарий.</p>
+              <span class="case-meta-line">Роль: UI/UX Designer</span>
+              <div class="case-links">
+                <button type="button" class="case-link" data-preview="assets/img/tochkaritma.webp" data-preview-title="Точка ритма — UI/UX дизайн">Увеличить макет</button>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/tochkaritma.webp" data-preview-title="Точка ритма — UI/UX дизайн" aria-label="Увеличить макет Точка ритма">
+                <img src="assets/img/tochkaritma.webp" width="1400" height="874" alt="Точка ритма UI/UX" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE:10 -->
+          <article class="case-row" data-cat="print">
+            <div class="case-num-col">
+              <span class="case-index">CASE:10</span>
+              <span class="case-year">2026</span>
+            </div>
+            <div class="case-info">
+              <div class="case-badges">
+                <span class="case-tag">Prepress</span>
+                <span class="case-tag">Illustrator 2026</span>
+                <span class="case-tag">Revit / 3D</span>
+              </div>
+              <h3 class="case-title">Графика, мерч, моддинг и 3D BIM</h3>
+              <p class="case-summary">Постерная швейцарская типографика, чертежи винилографии ПК (300×470 мм), тиражные магниты Warpath и BIM-реконструкция РГБ.</p>
+              <p class="case-result">Итог: 100% точность переноса на физические носители (шелкография, УФ-печать, плоттер).</p>
+              <span class="case-meta-line">Роль: Print, Prepress &amp; 3D Designer</span>
+              <div class="case-links">
+                <button type="button" class="case-link" data-preview="assets/img/pc_wrap_real.webp" data-preview-title="Моддинг корпуса ПК — Evangelion Unit-02">Моддинг ПК</button>
+                <button type="button" class="case-link" data-preview="assets/img/rimdvor1.webp" data-preview-title="Римский дворик РГБ — BIM &amp; Blender 3D">BIM &amp; 3D РГБ</button>
+              </div>
+            </div>
+            <div class="case-media">
+              <button type="button" class="case-media-btn" data-preview="assets/img/poster_newyear.webp" data-preview-title="Авторская графика и препресс" aria-label="Увеличить постер">
+                <img src="assets/img/poster_newyear.webp" width="724" height="1024" alt="Постерная типографика" loading="lazy" decoding="async" />
+              </button>
+            </div>
+          </article>
+
+        </div>
+        <p id="cases-empty" class="empty-cases" hidden>По этому запросу кейсов не найдено.</p>
+      </div>
+    </section>
+
+    <!-- ═══ 4. THREE KEY SKILLS TRIAD (sokolovski.pro model) ═══ -->
+    <section id="approach" class="sec" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">02 / Подход и архитектура</span>
+            <h2 id="approach-title" class="sec-title">3 опоры запуска</h2>
+          </div>
+          <p class="sec-note">Закрываю путь от идеи до деплоя в одних руках — или в паре с бэкенд-разработчиком.</p>
+        </div>
+
+        <div class="triad-grid">
+          <article class="triad-cell">
+            <span class="triad-num">01 / ПРОДУКТ</span>
+            <h3 class="triad-title">Понимать, что делать</h3>
+            <p class="triad-desc">Отсекаю лишние фичи, собираю структуру и путь клиента за 5 точных вопросов — без 40 страниц ТЗ.</p>
+            <ul class="triad-list">
+              <li>CJM и акценты первого экрана</li>
+              <li>Снижение трения в формах и заявках</li>
+              <li>Фокус на быстрый MVP за 2–4 недели</li>
+            </ul>
+          </article>
+          <article class="triad-cell">
+            <span class="triad-num">02 / UI/UX FIGMA</span>
+            <h3 class="triad-title">Знать, как сделать</h3>
+            <p class="triad-desc">Проектирую интерфейсы сразу с учётом вёрстки, сетки и доступности — макеты не ломаются в коде.</p>
+            <ul class="triad-list">
+              <li>Токены, компоненты, адаптив с 360px</li>
+              <li>Чистая типографика без визуального мусора</li>
+              <li>Контраст и доступность WCAG AA</li>
+            </ul>
+          </article>
+          <article class="triad-cell">
+            <span class="triad-num">03 / КОД &amp; AI</span>
+            <h3 class="triad-title">Довести 1:1 до релиза</h3>
+            <p class="triad-desc">Переношу дизайн в лёгкий быстрый код на React 19, Vue 3 или нативном JS без платных конструкторов.</p>
+            <ul class="triad-list">
+              <li>Загрузка &lt; 0.8с, Core Web Vitals 95+</li>
+              <li>SEO, Schema.org, Яндекс.Вебмастер</li>
+              <li>Исходники на 100% принадлежат вам</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 5. SERVICES & DOCUMENT PROOF ═══ -->
+    <section id="formats" class="sec" aria-labelledby="formats-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">03 / Услуги и гарантии</span>
+            <h2 id="formats-title" class="sec-title">Прозрачная вилка</h2>
+          </div>
+          <p class="sec-note">Стоимость и этапы фиксируются до старта. Работаю соло и в тандеме со вторым разработчиком.</p>
+        </div>
+
+        <div class="formats-proof-grid">
+          <div class="formats-table">
+            <div class="format-row">
+              <div>
+                <div class="format-name">Лендинг / Промо-сайт под ключ</div>
+                <div class="format-sub">Figma + чистая верстка + формы + настройка Яндекса</div>
+              </div>
+              <div class="format-price">25 000 – 45 000 ₽</div>
+              <div class="format-time">1–2 недели</div>
+            </div>
+            <div class="format-row">
+              <div>
+                <div class="format-name">Веб-сервис / MVP (React 19 / Vue 3)</div>
+                <div class="format-sub">Дизайн-система, личный кабинет, API (соло или тандем)</div>
+              </div>
+              <div class="format-price">55 000 – 95 000 ₽</div>
+              <div class="format-time">3–4 недели</div>
+            </div>
+            <div class="format-row">
+              <div>
+                <div class="format-name">3D WebGL-спецпроект (Three.js)</div>
+                <div class="format-sub">Интерактивная 3D-сцена 60 FPS + продуктовый UI</div>
+              </div>
+              <div class="format-price">65 000 – 120 000 ₽</div>
+              <div class="format-time">3–5 недель</div>
+            </div>
+            <div class="format-row">
+              <div>
+                <div class="format-name">Telegram-бот / AI-агент на Cloudflare</div>
+                <div class="format-sub">Парсеры, Gemini AI, CRM-уведомления (0 ₽ за сервер)</div>
+              </div>
+              <div class="format-price">30 000 – 60 000 ₽</div>
+              <div class="format-time">1–2 недели</div>
+            </div>
+          </div>
+
+          <aside class="doc-proof-card" aria-label="Отзыв и документ">
+            <button type="button" class="doc-thumb-btn" data-preview="assets/img/hgstroyblag.webp" data-preview-fallback="assets/img/hgstroyblag.png" data-preview-title="Благодарственное письмо — ООО «Хаус Гард»" aria-label="Увеличить благодарственное письмо">
+              <img src="assets/img/hgstroyblag.webp" width="595" height="843" alt="Скан благодарственного письма ООО Хаус Гард" loading="lazy" decoding="async" />
+            </button>
+            <div class="doc-meta">
+              <h3>Благодарственное письмо</h3>
+              <p>Официальный отзыв гендиректора ООО «Хаус Гард» за разработку B2B-портала smr.hgstroy.ru.</p>
+              <div class="doc-actions">
+                <button type="button" class="case-link" data-preview="assets/img/hgstroyblag.webp" data-preview-fallback="assets/img/hgstroyblag.png" data-preview-title="Благодарственное письмо — ООО «Хаус Гард»">Просмотреть</button>
+                <a href="assets/docs/Благодарственное_письмо_команде_разработки.pdf" target="_blank" rel="noopener noreferrer" class="case-link">Скачать PDF ↗</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 6. FAQ ═══ -->
+    <section class="sec" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">Частые вопросы</span>
+            <h2 id="faq-title" class="sec-title">Коротко по делу</h2>
+          </div>
+        </div>
+
+        <div class="faq-wrap">
+          <details class="faq-row">
+            <summary class="faq-summary"><span>Что если у меня нет готового ТЗ?</span><span class="faq-plus">+</span></summary>
+            <p class="faq-body">Задам 5 вопросов о вашем бизнесе и клиентах, сам соберу логику экранов и интерактивный макет в Figma до написания кода.</p>
+          </details>
+          <details class="faq-row">
+            <summary class="faq-summary"><span>Как фиксируется цена и проходит оплата?</span><span class="faq-plus">+</span></summary>
+            <p class="faq-body">Финальная смета фиксируется до старта. Работа идёт поэтапными спринтами — оплата по готовности каждого этапа.</p>
+          </details>
+          <details class="faq-row">
+            <summary class="faq-summary"><span>Кому принадлежит исходный код сайта?</span><span class="faq-plus">+</span></summary>
+            <p class="faq-body">На 100% вам. Код передаётся на ваш GitHub или хостинг без привязки к Tilda и ежемесячной аренды конструктора.</p>
+          </details>
+          <details class="faq-row">
+            <summary class="faq-summary"><span>Помогаете ли с доменом и индексацией в Яндексе?</span><span class="faq-plus">+</span></summary>
+            <p class="faq-body">Да. Настраиваю домен, HTTPS, Sitemap, Schema.org и Яндекс.Вебмастер при запуске проекта.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 7. CONTACT & EXPRESS BRIEF (Lucas Berghoef style) ═══ -->
+    <section id="contact" class="sec" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-grid">
+          <div>
+            <span class="sec-eyebrow">04 / Контакт</span>
+            <h2 id="contact-title" class="contact-display">Обсудим<br>ваш проект</h2>
+            <p class="sec-note" style="margin-bottom: 24px;">Отвечаю лично в течение 1–2 часов. Без менеджеров и агентских наценок.</p>
+
+            <span class="brief-picker-label">1. Выберите тип задачи для быстрого старта:</span>
+            <div class="brief-chips" role="group" aria-label="Тип задачи">
+              <button type="button" class="brief-chip" data-brief="landing">Лендинг</button>
+              <button type="button" class="brief-chip active" data-brief="mvp">MVP / Сервис</button>
+              <button type="button" class="brief-chip" data-brief="webgl">3D WebGL</button>
+              <button type="button" class="brief-chip" data-brief="bot">Telegram AI-бот</button>
+              <button type="button" class="brief-chip" data-brief="design">UI/UX Figma</button>
+            </div>
+
+            <div class="contact-cta-group">
+              <a id="brief-tg-link" href="https://t.me/aimovl" target="_blank" rel="noopener noreferrer" class="btn btn-accent">Написать в Telegram @aimovl ↗</a>
+              <button type="button" id="brief-to-form" class="btn btn-outline">Подставить в форму →</button>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/xlgpeagn" method="POST" aria-labelledby="contact-title">
+            <div>
+              <label for="contact-name" class="field-label">Ваше имя</label>
+              <input type="text" id="contact-name" name="name" class="field-input" placeholder="Иван" autocomplete="name" enterkeyhint="next" required />
+            </div>
+            <div>
+              <label for="contact-email" class="field-label">Ваш email</label>
+              <input type="email" id="contact-email" name="email" class="field-input" placeholder="ivan@company.ru" autocomplete="email" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="next" required />
+            </div>
+            <div>
+              <label for="contact-message" class="field-label">Задача</label>
+              <textarea id="contact-message" name="message" class="field-input" placeholder="Коротко о цели, сроках или ссылке на текущий сайт..." enterkeyhint="done" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent">Отправить заявку</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>© 2026 Дмитрий Еремин (Бургер)</div>
+        <div>Москва · Удалённо по миру</div>
+        <div class="footer-links">
+          <a href="https://t.me/aimovl" target="_blank" rel="noopener noreferrer">Telegram @aimovl ↗</a>
+          <a href="https://t.me/dmitryB_studio_bot" target="_blank" rel="noopener noreferrer">Бот ↗</a>
+          <a href="https://github.com/228burger228" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+        <a href="#hero" class="case-link">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- NATIVE <DIALOG> VIEWER (Fragments & Documents) -->
+  <dialog id="viewer-dialog" class="ed-dialog" closedby="any" aria-labelledby="viewer-title">
+    <div class="dialog-surface">
+      <div class="dialog-head">
+        <h2 id="viewer-title" class="dialog-title">Просмотр</h2>
+        <button type="button" id="viewer-close" class="dialog-close" aria-label="Закрыть">✕</button>
+      </div>
+      <div class="dialog-media-wrap">
+        <img id="viewer-img" src="" alt="" decoding="async" />
+      </div>
+      <div class="dialog-foot">
+        <span id="viewer-caption"></span>
+        <div class="dialog-nav">
+          <button type="button" id="viewer-prev" class="dialog-step-btn" aria-label="Предыдущий">‹</button>
+          <span id="viewer-counter" class="mono">1 / 1</span>
+          <button type="button" id="viewer-next" class="dialog-step-btn" aria-label="Следующий">›</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="ed-toast" class="ed-toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

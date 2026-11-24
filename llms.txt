@@ -1,0 +1,10 @@
+# Еремин Дмитрий (Дмитрий Бургер) — Product Designer & Design Engineer
+
+> Портфолио Дмитрия Еремина: продуктовый UI/UX дизайн в Figma, разработка веб-сервисов и лендингов на React 19 / Vue 3 / Vanilla JS, 3D WebGL (Three.js), Telegram AI-боты и допечатная подготовка.
+
+- **Имя:** Дмитрий Еремин (Ерёмин Дмитрий / Дмитрий Бургер)
+- **Локация:** Москва / Remote
+- **Telegram:** https://t.me/aimovl (@aimovl)
+- **Студийный бот:** https://t.me/dmitryB_studio_bot
+- **GitHub:** https://github.com/228burger228
+- **Стек:** Figma, HTML5, CSS3, Vanilla JS, React 19, Vue 3, Three.js, Cloudflare Workers, Gemini API, Supabase, Prepress (Illustrator)

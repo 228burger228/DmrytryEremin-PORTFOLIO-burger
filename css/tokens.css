@@ -1,0 +1,69 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS — Editorial Monochrome Architecture (Dark / Light Parity)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  color-scheme: dark light;
+
+  /* Typography */
+  --font-display: 'Unbounded', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Dark Theme (Default — Architectural Charcoal) */
+  --bg: #09090b;
+  --bg-elevated: #111114;
+  --bg-panel: #16161a;
+  --bg-hover: #1d1d22;
+
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.22);
+
+  /* Signal Accent — Inspired by Lucas Berghoef PF3.0 */
+  --accent: #c8ff00;
+  --accent-ink: #09090b;
+  --status-ok: #10b981;
+  --status-err: #ef4444;
+
+  --header-bg: rgba(9, 9, 11, 0.88);
+  --portrait-tint: rgba(9, 9, 11, 0.28);
+
+  /* Layout & Radius */
+  --container-max: 1320px;
+  --gutter: clamp(16px, 3vw, 48px);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 160ms;
+  --dur-base: 260ms;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f4f4f2;
+  --bg-elevated: #ffffff;
+  --bg-panel: #ecece8;
+  --bg-hover: #e5e5e0;
+
+  --text-primary: #09090b;
+  --text-secondary: #52525b;
+  --text-muted: #71717a;
+
+  --line: rgba(9, 9, 11, 0.12);
+  --line-strong: rgba(9, 9, 11, 0.28);
+
+  --accent: #09090b;
+  --accent-ink: #fafafa;
+
+  --header-bg: rgba(244, 244, 242, 0.9);
+  --portrait-tint: rgba(244, 244, 242, 0.08);
+}

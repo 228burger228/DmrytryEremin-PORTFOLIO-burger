@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /llms.txt
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://228burger228.github.io/DmrytryEremin-PORTFOLIO-burger/sitemap.xml
