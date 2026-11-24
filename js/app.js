@@ -284,8 +284,20 @@ class EditorialPortfolio {
       }, { passive: true });
     }
 
-    // Delegated single-image triggers (cases & document)
+    // Delegated gallery & single-image triggers (cases, print gallery & document)
     document.addEventListener('click', (e) => {
+      const galBtn = e.target.closest('[data-gallery]');
+      if (galBtn) {
+        e.preventDefault();
+        const key = galBtn.dataset.gallery;
+        const list = window.PORTFOLIO_DATA?.galleries?.[key];
+        if (list && list.length) {
+          const idx = Math.max(0, Math.min(list.length - 1, parseInt(galBtn.dataset.galleryIndex || '0', 10) || 0));
+          this.openGallery(list, idx, galBtn.dataset.galleryTitle || 'Галерея работ');
+          return;
+        }
+      }
+
       const btn = e.target.closest('[data-preview]');
       if (!btn) return;
       e.preventDefault();

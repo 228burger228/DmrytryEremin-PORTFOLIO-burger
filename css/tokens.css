@@ -10,27 +10,27 @@
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  /* Dark Theme (Default — Architectural Charcoal) */
-  --bg: #09090b;
-  --bg-elevated: #111114;
-  --bg-panel: #16161a;
-  --bg-hover: #1d1d22;
+  /* Dark Theme (Default — Architectural Slate inspired by Lucas Berghoef) */
+  --bg: #121316;
+  --bg-elevated: #191b20;
+  --bg-panel: #20232a;
+  --bg-hover: #262a33;
 
-  --text-primary: #fafafa;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
+  --text-primary: #f4f4f1;
+  --text-secondary: #a8adb8;
+  --text-muted: #767c87;
 
-  --line: rgba(255, 255, 255, 0.1);
-  --line-strong: rgba(255, 255, 255, 0.22);
+  --line: rgba(255, 255, 255, 0.11);
+  --line-strong: rgba(255, 255, 255, 0.24);
 
   /* Signal Accent — Inspired by Lucas Berghoef PF3.0 */
   --accent: #c8ff00;
-  --accent-ink: #09090b;
-  --status-ok: #10b981;
+  --accent-ink: #121316;
+  --status-ok: #22c55e;
   --status-err: #ef4444;
 
-  --header-bg: rgba(9, 9, 11, 0.88);
-  --portrait-tint: rgba(9, 9, 11, 0.28);
+  --header-bg: rgba(18, 19, 22, 0.9);
+  --portrait-tint: rgba(18, 19, 22, 0);
 
   /* Layout & Radius */
   --container-max: 1320px;

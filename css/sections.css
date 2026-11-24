@@ -126,7 +126,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, var(--bg) 0%, transparent 40%), var(--portrait-tint);
+    background: linear-gradient(to top, rgba(18, 19, 22, 0.42) 0%, transparent 24%);
     pointer-events: none;
   }
 
@@ -134,14 +134,15 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center top;
-    filter: contrast(1.06);
+    object-position: center 15%;
+    filter: contrast(1.03);
   }
 
   .hero-portrait-stamp {
     position: absolute;
     inset-block-end: -14px;
-    inset-inline-start: -18px;
+    inset-inline-end: -14px;
+    inset-inline-start: auto;
     z-index: 2;
   }
 
@@ -486,6 +487,39 @@
     color: #c8ff00;
   }
 
+  .cases-archive-cta {
+    margin-top: 28px;
+    padding: 20px 24px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--bg-elevated);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .cases-archive-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .cases-archive-kicker {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+  }
+
+  .cases-archive-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
   .empty-cases {
     padding: 40px 20px;
     text-align: center;
@@ -599,19 +633,50 @@
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
     background: var(--bg-elevated);
-    padding: 20px;
+    padding: 22px;
     display: flex;
-    gap: 18px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .doc-proof-head {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .doc-proof-verified {
+    color: var(--status-ok);
+  }
+
+  .doc-proof-body {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
   }
 
   .doc-thumb-btn {
-    width: 92px;
+    width: 96px;
     aspect-ratio: 3 / 4;
     border-radius: var(--radius-sm);
     overflow: hidden;
-    border: 1px solid var(--line);
+    border: 1px solid var(--line-strong);
     flex-shrink: 0;
+    transition: transform var(--dur-fast) ease, border-color var(--dur-fast) ease;
+  }
+
+  .doc-thumb-btn:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
   }
 
   .doc-thumb-btn img {
@@ -621,21 +686,32 @@
   }
 
   .doc-meta h3 {
-    font-size: 16px;
+    font-size: 15.5px;
     font-weight: 600;
     margin-bottom: 6px;
   }
 
-  .doc-meta p {
+  .doc-quote {
     font-size: 13px;
+    line-height: 1.45;
     color: var(--text-secondary);
+    padding-inline-start: 10px;
+    border-inline-start: 2px solid var(--accent);
     margin-bottom: 12px;
   }
 
   .doc-actions {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
+  }
+
+  .doc-proof-foot {
+    padding-top: 10px;
+    border-top: 1px dashed var(--line);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
   }
 
   /* ─── 6. FAQ (<details>) ───────────────────────────────────────────────── */
@@ -877,7 +953,7 @@
       height: 80px;
       inset-block-end: -10px;
       inset-inline-start: auto;
-      inset-inline-end: -10px;
+      inset-inline-end: 6px;
     }
 
     .hero-matrix {
@@ -929,6 +1005,16 @@
     }
     .hero-display {
       font-size: 27px;
+    }
+    .btn {
+      max-width: 100%;
+      white-space: normal;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 13px;
+    }
+    .doc-proof-body {
+      flex-direction: column;
     }
   }
 }
